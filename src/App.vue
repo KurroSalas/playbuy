@@ -1,27 +1,90 @@
 <template>
   <div id="app">
-    <HelloWorld msg="Hello Vue in CodeSandbox!" />
+  <header>
+  <div class="superior-header">
+  <Logo />
+  <BarraBusqueda/>
   </div>
+  <Menu />
+  </header>
+  <main class="container">
+    <CaminoMigas/>
+    <div class="dos-columnas">
+    <ProductoImagen/>
+    <ProductoDatos/>
+    </div>
+    <ProductoDescripcion/>
+   </main>
+   <Pie/>
+   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld";
+import Logo from "./components/Logo.vue";
+import Menu from "./components/Menu.vue";
+import BarraBusqueda from "./components/BarraBusqueda.vue";
+import CaminoMigas from "./components/CaminoMigas.vue";
+import ProductoImagen from "./components/ProductoImagen.vue";
+import ProductoDatos from "./components/ProductoDatos.vue";
+import ProductoDescripcion from "./components/ProductoDescripcion.vue";
+import Pie from "./components/Pie.vue";
 
 export default {
   name: "App",
   components: {
-    HelloWorld,
+    Logo,
+    BarraBusqueda,
+    Menu,
+    CaminoMigas,
+    ProductoImagen,
+    ProductoDatos,
+    ProductoDescripcion,
+    Pie,
   },
 };
 </script>
 
 <style>
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Titillium+Web:wght@300;400;700&display=swap");
+
+header {
+  margin: 0em;
+  padding: 0em;
+}
+
+body {
+  margin-left: 40px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.superior-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 #app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  font-family: "Titillium Web", sans-serif;
+}
+.container {
+  max-width: 1400px;
+  margin: auto;
+}
+
+.boton {
+  background-color: #1abc9c;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: white;
+  padding: 0.7rem 1.2rem;
+  cursor: pointer;
+  border: none;
+}
+.dos-columnas {
+  display: flex;
+  margin: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 </style>
