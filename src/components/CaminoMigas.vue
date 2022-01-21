@@ -1,38 +1,35 @@
 <template>
   <section id="camino-migas">
-      <a class="inicio" href="#"> Inicio </a> >
-      <a href="#">Ordenadores </a> > 
-      <a class="actual" href="#">Ordenador portátil</a> 
-
-
+    <breadcrumb
+      class="row justify-content-center mt-4"
+      :crumbs="crumbs"
+      @selected="selected"
+    />
   </section>
 </template>
 
 <script>
+import breadcrumb from "./breadcrumb";
 export default {
-
-}
+  name: "CaminoMigas",
+  components: { breadcrumb },
+  data() {
+    return {
+      crumbs: ["Home", "Category", "Sub category"],
+    };
+  },
+  methods: {
+    selected(crumb) {
+      console.log(crumb);
+    },
+  },
+};
 </script>
 
 <style scoped>
 section#camino-migas {
-    margin-right:10em;
-    margin-top:1em;
-    display:flex;
-    justify-content: center;
-
+  margin-top: 1em;
+  display: flex;
+  justify-content: center;
 }
-section#camino-migas a, 
-section#camino-migas a:hover, 
-section#camino-migas a:visited{
-    text-decoration: none;
-    font-size: 1.2rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    color: rgb(27, 112, 221);
-}
-section#camino-migas a.actual {
-    font-weight: 700;
-}
-
 </style>

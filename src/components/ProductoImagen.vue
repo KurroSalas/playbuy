@@ -23,13 +23,13 @@ export default {
                 require ('../assets/a2.png'),
                 require ('../assets/a3.png'),
                 require ('../assets/a4.jpg')]
-        }
+        };
     },
     methods: {
         cambiarFoto(id) {
             this.fotos[0] = this.fotos[id]
-        }
-    }
+        },
+    },
 
 }
 </script>

@@ -68,19 +68,10 @@ body {
   font-family: "Titillium Web", sans-serif;
 }
 .container {
-  max-width: 1400px;
+  max-width: 1200px;
   margin: auto;
 }
 
-.boton {
-  background-color: #1abc9c;
-  font-size: 1.2rem;
-  font-weight: 700;
-  color: white;
-  padding: 0.7rem 1.2rem;
-  cursor: pointer;
-  border: none;
-}
 .dos-columnas {
   display: flex;
   margin: 1rem;

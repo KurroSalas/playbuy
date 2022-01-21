@@ -1,60 +1,40 @@
 <template>
   <section id="producto-descripcion" class="flex_row">
     <div class="flex_row vid">
-    <video
-      id="vid1"
-      width="380"
-      height="215"
-      class="video-js vjs-default-skinnp flex_row"
-      preload="auto"
-      poster="..//assets/poster.png"
-      controls
-      data-setup="{}"
-    >
-      <source
-        src="..//assets/video.mp4"
-        type="video/mp4"
-      />
-      <p class="vjs-no-js">
-        To view this video please enable JavaScript, and consider upgrading to a
-        web browser that
-        <a href="http://videojs.com/html5-video-support/" target="_blank">
-          supports HTML5 video
-        </a>
-      </p>
-    </video>
+      <video
+        id="vid1"
+        width="380"
+        height="215"
+        class="video-js vjs-default-skinnp flex_row"
+        preload="auto"
+        poster="..//assets/poster.png"
+        controls
+        data-setup="{}"
+      >
+        <source src="..//assets/video.mp4" type="video/mp4" />
+        <p class="vjs-no-js">
+          To view this video please enable JavaScript, and consider upgrading to
+          a web browser that
+          <a href="http://videojs.com/html5-video-support/" target="_blank">
+            supports HTML5 video
+          </a>
+        </p>
+      </video>
     </div>
 
-    <div class="texto">
-      <h1>DESCRIPCIÓN DEL PRODUCTO</h1>
+    <div class="texto flex_row">
+      
       <ul>
         <li>
-          HUAWEI MateBook X es pequeño pero poderoso; su procesador de hasta 7ª
-          generación Intel® Core™ i7 proporciona potencia suficiente tanto para
-          trabajo como para entretenimiento.
+          El coche clásico y el milagro espacial de Gran Bretaña. Ahora también
+          de PLAYMOBIL: figuras y accesorios de una escena londinense de los
+          años 70.
         </li>
         <li>
-          La ingeniería aeroespacial permite al HUAWEI MateBook X permanecer
-          frío gracias a sus materiales de cambio de fase (usados en la
-          industria espacial), lo que significa que el sobrecalentamiento es una
-          cosa del pasado.
-        </li>
-        <li>
-          El botón de encendido dos en uno del HUAWEI MateBook X y su sensor de
-          reconocimiento por huella dactilar te ayudan a arrancarlo de forma
-          rápida y segura para funcionar a la velocidad de tu vida.
-        </li>
-        <li>
-          Seguridad total. Hoy en día utilizamos los dispositivos electrónicos
-          para todo tipo de cosas; desde transacciones bancarias hasta el
-          almacenamiento de documentos importantes. Por ello, la seguridad nunca
-          está de más. El portátil Huawei está equipado con un sensor de huella
-          dactilar para que sólo tú puedas iniciar sesión y utilizarlo.
-        </li>
-        <li>
-          Memoria ultrarrápida. Con el disco duro de 256 GB SSD podrás arrancar
-          tu Windows 10 como un verdadero tiro. En un abrir y cerrar de ojos
-          tendrás listo tu portátil.
+          Dimensiones: 18,5 x 10 x 8 cm. (largo x ancho x alto). Recomendado
+          para edades comprendidas entre los cinco y los noventa años.
+          Advertencia. Peligro de asfixia. Piezas pequeñas. No apto para niños y
+          niñas menores de 3 años.
         </li>
       </ul>
     </div>
@@ -62,45 +42,31 @@
 </template>
 
 <script>
-  
-  
-  export default {
-    
-  }
+export default {};
 </script>
 
 
 <style scoped>
 #producto-descripcion {
+  justify-content:center;
   margin: 1em;
-}
-#producto-descripcion h1 {
-  display: flex;
-  color: #1abc9c;
-  justify-content: center;
-  text-align: start;
-  margin: 0em;
-  padding: 0em;
-  
 }
 
 .vid {
-  position:relative;
-  width: 700px;
-  justify-content:center;
-  
+  position: relative;
+  width: 500px;
+  justify-content: center;
 }
 
-
 .texto {
-  width: 700px;
-  justify-content:center;
   
+  width: 500px;
+  justify-content:left;
+  color:darkblue;
 }
 
 .flex_row {
   display: flex;
   flex-direction: row;
- 
 }
 </style>
