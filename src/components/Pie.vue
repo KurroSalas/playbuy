@@ -109,6 +109,10 @@ export default {};
   padding: 1em;
 }
 
+p{
+  color:darkblue;
+}
+
 .redes {
   display: flex;
   align-items: center;
@@ -122,13 +126,13 @@ export default {};
 .insta {
   height: 40px;
   width: 60px;
-  margin-bottom: 1.5em;
+  margin-bottom: 1.75em;
 }
 
 .twit {
   height: 40px;
   width: 50px;
   margin-bottom: 0.5em;
-  margin-left: 1.25em;
+  margin-left: 1.50em;
 }
 </style>

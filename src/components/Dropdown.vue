@@ -68,7 +68,6 @@ nav .item-menu{
 nav .item-menu:hover {
   background-color: rgba(248, 253, 255, 1);
   border-radius: 16px 16px 16px 16px;
-  opacity: 50%;
   color: rgb(27, 112, 221);
   font-weight: bolder;
 }
