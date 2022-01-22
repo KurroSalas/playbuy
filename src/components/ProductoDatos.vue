@@ -30,7 +30,7 @@
     <img
       class="fot"
       src="..//assets/war.jpg"
-      alt="Portátil Huawei MateBoot X"
+      alt="Warning"
     />
     <div class="clear">&nbsp;</div>
   </section>
@@ -73,6 +73,7 @@ h2 {
 .wrapper {
   height: 2rem;
   display: flex;
+  margin-top:1em;
 }
 
 .cantidad {
@@ -89,6 +90,9 @@ h2 {
   width: 1.8rem;
   align-items: center;
   justify-content: center;
+
+
+
 }
 button:focus,
 input:focus {
@@ -100,10 +104,17 @@ input:focus {
   font-size: 1.2rem;
   font-weight: 700;
   color: white;
+  margin-top:1em;
   padding: 0.7rem 1.2rem;
   cursor: pointer;
   border: none;
   border-radius: 50px;
+}
+
+.boton:hover {
+background-color: rgba(193, 235, 255, 1);
+  color: rgb(27, 112, 221);
+  font-weight: bolder;
 }
 
 .material-icons {

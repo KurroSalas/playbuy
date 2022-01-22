@@ -1,6 +1,6 @@
 <template>
-  <section id="producto-descripcion" class="flex_row">
-    <div class="flex_row vid">
+  <section  class="dos-columnas">
+    <div class="vid">
       <video
         id="vid1"
         width="380"
@@ -10,6 +10,7 @@
         poster="..//assets/poster.png"
         controls
         data-setup="{}"
+        copyright="cc-0"
       >
         <source src="..//assets/video.mp4" type="video/mp4" />
         <p class="vjs-no-js">
@@ -22,7 +23,7 @@
       </video>
     </div>
 
-    <div class="texto flex_row">
+    <div class="texto">
       
       <ul>
         <li>
@@ -53,20 +54,19 @@ export default {};
 }
 
 .vid {
+  display: flex;
+  flex-direction: row;
   position: relative;
   width: 500px;
   justify-content: center;
 }
 
 .texto {
-  
+  position: relative;
+  margin-top:1em;
   width: 500px;
   justify-content:left;
   color:darkblue;
 }
 
-.flex_row {
-  display: flex;
-  flex-direction: row;
-}
 </style>

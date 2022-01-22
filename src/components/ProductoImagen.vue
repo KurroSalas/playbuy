@@ -1,13 +1,13 @@
 <template>
   <section id="producto-imagen">
       <div class="img-big"> 
-          <img v-bind:src="fotos[0]" alt="Portátil Huawei MateBoot X">
+          <img v-bind:src="fotos[0]" alt="Playmobil Mini Cooper" copyright="cc-0">
       </div>
         <div class="img-mini">
-          <a @mouseover="cambiarFoto(1)"><img  v-bind:src="fotos[1]" alt="Portátil Huawei MateBoot X"></a>
-          <a @mouseover="cambiarFoto(2)"><img  v-bind:src="fotos[2]" alt="Portátil Huawei MateBoot X"></a>
-          <a @mouseover="cambiarFoto(3)"><img  v-bind:src="fotos[3]" alt="Portátil Huawei MateBoot X"></a>
-          <a @mouseover="cambiarFoto(4)"><img  v-bind:src="fotos[4]" alt="Portátil Huawei MateBoot X"></a>
+          <a @mouseover="cambiarFoto(1)"><img  v-bind:src="fotos[1]" alt="Playmobil Mini Cooper" copyright="cc-0"></a>
+          <a @mouseover="cambiarFoto(2)"><img  v-bind:src="fotos[2]" alt="Playmobil Mini Cooper" copyright="cc-0"></a>
+          <a @mouseover="cambiarFoto(3)"><img  v-bind:src="fotos[3]" alt="Playmobil Mini Cooper" copyright="cc-0"></a>
+          <a @mouseover="cambiarFoto(4)"><img  v-bind:src="fotos[4]" alt="Playmobil Mini Cooper" copyright="cc-0"></a>
         </div>
       </section>    
 </template>
@@ -55,5 +55,10 @@ export default {
     width: 150px;
     border:2px solid #d8d8d8;
     
+}
+
+.img-big{
+    max-width: 100%;
+    height: auto;
 }
 </style>

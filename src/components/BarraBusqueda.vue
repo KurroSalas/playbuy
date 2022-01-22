@@ -20,7 +20,7 @@ export default {
 
 <style scoped>
 section#barra-busqueda {
-    margin-right: 11em;
+    margin-right: 5em;
     margin-top:3em;
     
 }
@@ -42,7 +42,7 @@ section#barra-busqueda input{
 }
 #boton-busqueda {
   background-color: gba(193, 235, 255, 1);
-  padding: 0.7rem 1.2rem;
+  padding: 1em;
   cursor: pointer;
   border: none;
   border-radius:50px;

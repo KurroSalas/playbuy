@@ -1,22 +1,22 @@
 <template>
   <div id="app">
-  <header>
-  <div class="superior-header">
-  <Logo />
-  <BarraBusqueda/>
+    <header>
+      <div class="superior-header">
+        <Logo />
+        <BarraBusqueda />
+      </div>
+      <Menu />
+    </header>
+    <main class="container">
+      <CaminoMigas />
+      <div class="dos-columnas">
+        <ProductoImagen />
+        <ProductoDatos />
+      </div>
+      <ProductoDescripcion />
+    </main>
+    <Pie />
   </div>
-  <Menu />
-  </header>
-  <main class="container">
-    <CaminoMigas/>
-    <div class="dos-columnas">
-    <ProductoImagen/>
-    <ProductoDatos/>
-    </div>
-    <ProductoDescripcion/>
-   </main>
-   <Pie/>
-   </div>
 </template>
 
 <script>
@@ -59,6 +59,8 @@ body {
 }
 
 .superior-header {
+  max-width: 1200px;
+  margin: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -77,5 +79,10 @@ body {
   margin: 1rem;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+p {
+  display:flex;
+  justify-content:center;
 }
 </style>

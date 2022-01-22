@@ -15,7 +15,7 @@ export default {
   components: { breadcrumb },
   data() {
     return {
-      crumbs: ["Home", "Category", "Sub category"],
+      crumbs: ["Home", "Vehiculos", "Mini Cooper"],
     };
   },
   methods: {
@@ -31,5 +31,6 @@ section#camino-migas {
   margin-top: 1em;
   display: flex;
   justify-content: center;
+  flex-wrap:wrap;
 }
 </style>
