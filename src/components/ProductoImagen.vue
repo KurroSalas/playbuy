@@ -49,9 +49,6 @@ export default {
     align-items: flex-start;
     margin-top:1em;
     cursor: pointer;
-    max-width: 5%;
-    height: auto;
-}
     
 }
 .img-mini img {
@@ -61,7 +58,7 @@ export default {
 }
 
 .img-big{
-    max-width: 5%;
+    max-width: 100%;
     height: auto;
 }
 </style>
