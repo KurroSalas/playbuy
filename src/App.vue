@@ -53,17 +53,13 @@ export default {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 100%;
-  margin: auto;
 }
 
 #app {
   font-family: "Titillium Web", sans-serif;
-  
 }
-
 .container {
-  max-width: 100%;
+  max-width: 75rem;
   margin: auto;
 }
 
