@@ -60,7 +60,7 @@ export default {
   max-width: 100%;
     height: auto;
 }
-}
+
 .container {
   max-width: 75rem;
   margin: auto;
