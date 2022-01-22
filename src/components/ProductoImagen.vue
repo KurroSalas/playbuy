@@ -4,10 +4,10 @@
           <img v-bind:src="fotos[0]" alt="Portátil Huawei MateBoot X">
       </div>
         <div class="img-mini">
-          <a @click="cambiarFoto(1)"><img  v-bind:src="fotos[1]" alt="Portátil Huawei MateBoot X"></a>
-          <a @click="cambiarFoto(2)"><img  v-bind:src="fotos[2]" alt="Portátil Huawei MateBoot X"></a>
-          <a @click="cambiarFoto(3)"><img  v-bind:src="fotos[3]" alt="Portátil Huawei MateBoot X"></a>
-          <a @click="cambiarFoto(4)"><img  v-bind:src="fotos[4]" alt="Portátil Huawei MateBoot X"></a>
+          <a @mouseover="cambiarFoto(1)"><img  v-bind:src="fotos[1]" alt="Portátil Huawei MateBoot X"></a>
+          <a @mouseover="cambiarFoto(2)"><img  v-bind:src="fotos[2]" alt="Portátil Huawei MateBoot X"></a>
+          <a @mouseover="cambiarFoto(3)"><img  v-bind:src="fotos[3]" alt="Portátil Huawei MateBoot X"></a>
+          <a @mouseover="cambiarFoto(4)"><img  v-bind:src="fotos[4]" alt="Portátil Huawei MateBoot X"></a>
         </div>
       </section>    
 </template>
@@ -27,7 +27,9 @@ export default {
     },
     methods: {
         cambiarFoto(id) {
-            this.fotos[0] = this.fotos[id]
+            this.fotos[0] = this.fotos[id];
+            this.$forceUpdate();
+            
         },
     },
 
@@ -46,6 +48,7 @@ export default {
     justify-content: space-between;
     align-items: flex-start;
     margin-top:1em;
+    cursor: pointer;
     
 }
 .img-mini img {
