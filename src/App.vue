@@ -53,6 +53,8 @@ export default {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  max-width: 100%;
+  margin: auto;
 }
 
 #app {
