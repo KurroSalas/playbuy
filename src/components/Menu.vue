@@ -127,8 +127,7 @@ nav .menu-item a {
   margin-left: 1em;
   margin-top: 1em;
   padding: 1em;
-  max-width: 100%;
-    height: auto;
+  
 }
 
 .cesta {

@@ -41,8 +41,7 @@ export default {
     border-radius: 1.563rem;
     padding: 1rem;
     margin: 1rem;
-    max-width: 100%;
-    height: auto;
+    
     
 }
 .img-mini {
