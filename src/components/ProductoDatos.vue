@@ -86,7 +86,7 @@ h2 {
 }
 .btn {
   display: flex;
-  border: 1px solid #d8d8d8;
+  border: 0.063rem solid #d8d8d8;
   width: 1.8rem;
   align-items: center;
   justify-content: center;

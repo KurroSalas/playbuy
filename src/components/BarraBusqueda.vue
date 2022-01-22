@@ -37,7 +37,7 @@ section#barra-busqueda input{
     color: #181818;
     outline: none;
     line-height: 1.4rem;
-    border-radius: 50px;
+    border-radius: 3.125rem;
     font-size: 1.2rem;
 }
 #boton-busqueda {
@@ -45,7 +45,7 @@ section#barra-busqueda input{
   padding: 1em;
   cursor: pointer;
   border: none;
-  border-radius:50px;
+  border-radius: 3.125rem;
   
 }
 

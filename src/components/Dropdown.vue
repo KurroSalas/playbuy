@@ -47,14 +47,14 @@ nav .sub-menu {
   flex-direction: column;
   position: absolute;
   background-color: rgba(193, 235, 255, 1);
-  top: calc(100% + 18px);
+  top: calc(100% + 1.125rem);
   left: 50%;
   width: 10em;
   margin-left: -1.5em;
   transform: translate (-50%);
   padding: 3em 1em 1em 1em;
 
-  border-radius: 16px 16px 16px 16px;
+  border-radius: 1rem 1rem 1rem 1rem;
   opacity:0.9;
   
 
@@ -67,7 +67,7 @@ nav .item-menu{
 
 nav .item-menu:hover {
   background-color: rgba(248, 253, 255, 1);
-  border-radius: 16px 16px 16px 16px;
+  border-radius: 1rem 1rem 1rem 1rem;
   color: rgb(27, 112, 221);
   font-weight: bolder;
 }
@@ -88,8 +88,7 @@ nav .item-menu:hover {
 
 nav .acerca-menu:hover {
   background-color: rgba(248, 253, 255, 1);
-  border-radius: 16px 16px 16px 16px;
-  opacity: 50%;
+  border-radius: 1rem 1rem 1rem 1rem;
   color: rgb(27, 112, 221);
   font-weight: bolder;
 }

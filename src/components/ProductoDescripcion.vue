@@ -57,14 +57,14 @@ export default {};
   display: flex;
   flex-direction: row;
   position: relative;
-  width: 500px;
+  width: 31.25rem;
   justify-content: center;
 }
 
 .texto {
   position: relative;
   margin-top:1em;
-  width: 500px;
+  width: 31.25rem;
   justify-content:left;
   color:darkblue;
 }

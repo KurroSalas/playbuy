@@ -1,6 +1,6 @@
 <template>
   <section id="camino-migas">
-    <breadcrumb
+    <BreadCrumb
       class="row justify-content-center mt-4"
       :crumbs="crumbs"
       @selected="selected"
@@ -9,10 +9,10 @@
 </template>
 
 <script>
-import breadcrumb from "./breadcrumb";
+import BreadCrumb from "./BreadCrumb";
 export default {
   name: "CaminoMigas",
-  components: { breadcrumb },
+  components: { BreadCrumb },
   data() {
     return {
       crumbs: ["Home", "Vehiculos", "Mini Cooper"],

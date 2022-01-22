@@ -13,8 +13,8 @@ export default {
 <style scoped>
 
 img.logo {
-    height: 120px;
-    width: 160px;
+    height: 7.5rem;
+    width: 10rem;
     margin-left: 3rem;
     margin-top: 2rem;
     

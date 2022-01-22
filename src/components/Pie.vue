@@ -83,7 +83,7 @@
         </svg>
       </a>
     </div>
-     <p>© Copyright 2021 - Todos los derechos reservados</p>
+     <p>© Copyright 2022 - Todos los derechos reservados</p>
   </footer>
 </template>
 
@@ -103,13 +103,15 @@ export default {};
     rgba(193, 235, 255, 1) 50%,
     rgba(248, 253, 255, 1) 95%
   );
-  border-radius: 18px 0px 0px 18px;
+  border-radius: 1.125rem 0rem 0rem 1.125rem;
   margin-left: 1em;
   margin-top: 3em;
   padding: 1em;
 }
 
 p{
+  display:flex;
+  justify-content:center;
   color:darkblue;
 }
 
@@ -120,18 +122,18 @@ p{
 }
 
 .face {
-  height: 70px;
-  width: 100px;
+  height: 4.375rem;
+  width: 6.25rem;
 }
 .insta {
-  height: 40px;
-  width: 60px;
+  height: 2.5rem;
+  width: 3.75rem;
   margin-bottom: 1.75em;
 }
 
 .twit {
-  height: 40px;
-  width: 50px;
+  height: 2.5rem;
+  width: 3.125rem;
   margin-bottom: 0.5em;
   margin-left: 1.50em;
 }

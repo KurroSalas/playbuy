@@ -86,7 +86,7 @@ nav .menu-item a {
   border: solid;
   padding:1em;
   margin-top:0.5em;
-  border-radius: 50px;
+  border-radius: 3.125rem;
   border-color: rgb(27, 112, 221);
   background-color: rgb(27, 112, 221);
 }
@@ -97,7 +97,7 @@ nav .menu-item a {
   border: solid;
   padding: 1em;
   margin-top:0.5em;
-  border-radius: 50px;
+  border-radius: 3.125rem;
   border-color: rgb(27, 112, 221);
   background-color: rgb(27, 112, 221);
 }
@@ -123,7 +123,7 @@ nav .menu-item a {
     rgba(193, 235, 255, 1) 50%,
     rgba(248, 253, 255, 1) 95%
   );
-  border-radius: 18px 0px 0px 18px;
+  border-radius: 1.125rem 0rem 0rem 1.125rem;
   margin-left: 1em;
   margin-top: 1em;
   padding: 1em;
@@ -136,7 +136,7 @@ nav .menu-item a {
   margin-top:0.5em;
   cursor: pointer;
   border: none;
-  border-radius:50px;
+  border-radius:3.125rem;
   }
 
 .header-inferior{
@@ -145,7 +145,7 @@ nav .menu-item a {
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
-  max-width: 1200px;
+  max-width: 75rem;
   margin: auto;
 }
 </style>

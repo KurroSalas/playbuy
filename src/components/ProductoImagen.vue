@@ -38,7 +38,7 @@ export default {
 
 <style scoped>
 #producto-imagen {
-    border-radius: 25px;
+    border-radius: 1.563rem;
     padding: 1rem;
     margin: 1rem;
     
@@ -52,8 +52,8 @@ export default {
     
 }
 .img-mini img {
-    width: 150px;
-    border:2px solid #d8d8d8;
+    width: 9.375rem;
+    border:0.125rem solid #d8d8d8;
     
 }
 

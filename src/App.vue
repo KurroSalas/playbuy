@@ -47,19 +47,8 @@ export default {
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Titillium+Web:wght@300;400;700&display=swap");
 
-header {
-  margin: 0em;
-  padding: 0em;
-}
-
-body {
-  margin-left: 40px;
-  padding: 0px;
-  box-sizing: border-box;
-}
-
 .superior-header {
-  max-width: 1200px;
+  max-width: 75rem;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -70,7 +59,7 @@ body {
   font-family: "Titillium Web", sans-serif;
 }
 .container {
-  max-width: 1200px;
+  max-width: 75rem;
   margin: auto;
 }
 
@@ -81,8 +70,4 @@ body {
   flex-wrap: wrap;
 }
 
-p {
-  display:flex;
-  justify-content:center;
-}
 </style>
