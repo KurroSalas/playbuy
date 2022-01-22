@@ -57,5 +57,8 @@ export default {
     
 }
 
-
+.img-big{
+    max-width: 30%;
+    height: auto;
+}
 </style>
