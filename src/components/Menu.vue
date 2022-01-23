@@ -72,7 +72,7 @@ nav .menu-item a {
 
 .grupo {
   display:flex;
-  flex-wrap:wrap;
+  flex-wrap:nowrap;
   align-items:center;
   position: relative;
   margin-left: 2em;
