@@ -15,7 +15,9 @@
       </div>
       <ProductoDescripcion />
     </main>
-    <Pie />
+    <footer>
+      <Pie />
+    </footer>
   </div>
 </template>
 
@@ -47,8 +49,15 @@ export default {
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Titillium+Web:wght@300;400;700&display=swap");
 
+@media screen and (min-width: 0em) and (max-width: 26.563em) {
+  body {
+    display: flex;
+  }
+}
+
 .superior-header {
   max-width: 75rem;
+  width: 100%;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -57,12 +66,11 @@ export default {
 
 #app {
   font-family: "Titillium Web", sans-serif;
-  width: 100%;
-  margin: 0 auto;
+ }
 
-}
 .container {
   max-width: 75rem;
+  width: 100%;
   margin: auto;
 }
 
@@ -72,5 +80,4 @@ export default {
   justify-content: center;
   flex-wrap: wrap;
 }
-
 </style>

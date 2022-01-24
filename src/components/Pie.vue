@@ -1,5 +1,6 @@
 <template>
   <footer id="pie">
+    <div class="contenido">
     <div class="redes">
       <a class="face" href="#">
         <svg
@@ -84,6 +85,7 @@
       </a>
     </div>
      <p>© Copyright 2022 - Todos los derechos reservados</p>
+     </div>
   </footer>
 </template>
 
@@ -93,8 +95,7 @@ export default {};
 
 <style scoped>
 #pie {
-  display: flex;
-  flex-direction: column;
+
   background: rgb(27, 112, 221);
   background: rgb(50, 128, 228);
   background: linear-gradient(
@@ -106,7 +107,15 @@ export default {};
   border-radius: 1.125rem 0rem 0rem 1.125rem;
   margin-left: 1em;
   margin-top: 3em;
+  margin-right:1em;
   padding: 1em;
+}
+
+.contenido{
+  display: flex;
+  flex-direction: column;
+  
+
 }
 
 p{

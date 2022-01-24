@@ -78,6 +78,7 @@ nav .menu-item a {
   margin-left: 2em;
   margin-right: 10em;
   color: white;
+  
 }
 
 .registro {
@@ -128,7 +129,7 @@ nav .menu-item a {
   margin-top: 1em;
   padding: 1em;
   
-}
+  }
 
 .cesta {
   position: relative;
