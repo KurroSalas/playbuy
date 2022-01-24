@@ -57,6 +57,9 @@ export default {
 
 #app {
   font-family: "Titillium Web", sans-serif;
+  width: 100%;
+  margin: 0 auto;
+
 }
 .container {
   max-width: 75rem;
